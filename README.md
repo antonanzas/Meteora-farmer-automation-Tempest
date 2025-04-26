@@ -46,4 +46,9 @@ Tempest is built using modern, efficient, and scalable technologies. Here’s th
   - **Meteora SDK**: Direct interaction with liquidity pools.  
   - **Dexscreener API**: Pool and market data for accurate analysis.  
   - **Jupiter API**: Token swaps and liquidity management.  
-  - **Discord API**: For alerts and notifications.  
+  - **Discord API**: For alerts and notifications.
+--- 
+
+## ⚠️ Heads up!
+Tempest currently applies a small 4% fee on the collected rewards.
+If you prefer, you can easily remove it by tweaking a few lines of code — no problem at all!
