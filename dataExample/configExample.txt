@@ -1,0 +1,185 @@
+{
+  "walletKey": "",
+  "rpc": "",
+  "discordWebhook": "",
+  "fullLogs": "true",
+  "priorityFeeInMicroLamports": 1500000,
+  "currency": "SOL",
+  "monitorTimeinSecs": 120,
+  "timeoutAbove": 15,
+  "timeoutBelow": 30,
+  "pulseDefaultValues": {
+    "takeProfit": "disable",
+    "stopLoss": "disable",
+    "closeAfterMinutes": "disable"
+  },
+  "excludedTokensAutofarming": [],
+  "modules": {
+    "safe": {
+      "position": {
+        "tokenAgeHours": 48,
+        "keepOpenHours": "disable",
+        "takeProfit": 5,
+        "stopLoss": -15
+      },
+      "marketCap": {
+        "min": 100000000,
+        "max": 1000000000
+      },
+      "volume": {
+        "min1h": 1000000,
+        "min24h": 20000000
+      },
+      "binStep": {
+        "min": 49,
+        "max": 200
+      },
+      "TVL": {
+        "min": 100000,
+        "max": "disable"
+      },
+      "fees": {
+        "min24h": 25000
+      },
+      "priceChange": {
+        "min1h": -5,
+        "max1h": 100,
+        "min6h": -15,
+        "max6h": "disable"
+      }
+    },
+    "ronin": {
+      "position": {
+        "tokenAgeHours": 12,
+        "keepOpenHours": 24,
+        "takeProfit": 6,
+        "stopLoss": -12
+      },
+      "marketCap": {
+        "min": 20000000,
+        "max": 100000000
+      },
+      "volume": {
+        "min1h": 600000,
+        "min24h": 10000000
+      },
+      "binStep": {
+        "min": 50,
+        "max": 125
+      },
+      "TVL": {
+        "min": 25000,
+        "max": 1000000
+      },
+      "fees": {
+        "min24h": 5000
+      },
+      "priceChange": {
+        "min1h": -4,
+        "max1h": 200,
+        "min6h": -15,
+        "max6h": 500
+      }
+    },
+
+    "degen": {
+      "position": {
+        "tokenAgeHours": 6,
+        "keepOpenHours": 16,
+        "takeProfit": 8,
+        "stopLoss": -20
+      },
+      "marketCap": {
+        "min": 5000000,
+        "max": 20000000
+      },
+      "volume": {
+        "min1h": 500000,
+        "min24h": 10000000
+      },
+      "binStep": {
+        "min": 100,
+        "max": 400
+      },
+      "TVL": {
+        "min": 10000,
+        "max": 1000000
+      },
+      "fees": {
+        "min24h": 2000
+      },
+      "priceChange": {
+        "min1h": -10,
+        "max1h": 300,
+        "min6h": -25,
+        "max6h": "disable"
+      }
+    },
+    "custom sight": {
+      "position": {
+        "tokenAgeHours": 12,
+        "keepOpenHours": 24,
+        "takeProfit": 8,
+        "stopLoss": -18
+      },
+      "marketCap": {
+        "min": 10000000,
+        "max": 50000000
+      },
+      "volume": {
+        "min1h": 500000,
+        "min24h": 1000000
+      },
+      "binStep": {
+        "min": 100,
+        "max": 400
+      },
+      "TVL": {
+        "min": 20000,
+        "max": 1000000
+      },
+      "fees": {
+        "min24h": 2000
+      },
+      "priceChange": {
+        "min1h": -10,
+        "max1h": 200,
+        "min6h": -10,
+        "max6h": "disable"
+      }
+    },
+    "custom alt": {
+      "position": {
+        "tokenAgeHours": 12,
+        "keepOpenHours": 24,
+        "takeProfit": 8,
+        "stopLoss": -25
+      },
+      "marketCap": {
+        "min": 10000000,
+        "max": 150000000
+      },
+      "volume": {
+        "min1h": 500000,
+        "min24h": 1100000
+      },
+      "binStep": {
+        "min": 50,
+        "max": 100
+      },
+      "TVL": {
+        "min": 2000,
+        "max": 1000000
+      },
+      "fees": {
+        "min24h": 550
+      },
+      "priceChange": {
+        "min1h": -10,
+        "max1h": "disable",
+        "min6h": -10,
+        "max6h": 350
+      }
+    }
+  }
+}
