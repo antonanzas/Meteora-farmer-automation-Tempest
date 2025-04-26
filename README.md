@@ -1,6 +1,6 @@
 # Tempest CLI 🌪️  
 
-Tempest is a powerful **CLI tool** designed to automate and optimize liquidity farming strategies on the **Meteora platform** (Solana). With its advanced features and customizable settings, Tempest takes the manual effort out of liquidity management, helping users efficiently monitor and manage their positions in real-time.
+Tempest is a powerful **CLI tool** designed to automate and optimize liquidity farming strategies on **Meteora platform** (Solana). With its advanced features and customizable settings, Tempest takes the manual effort out of liquidity management, helping users efficiently monitor and manage their positions in real-time.
 
 ## ✨ About Tempest  
 Tempest is built to **automate and optimize liquidity farming** by monitoring and managing liquidity pool positions on **Meteora**. Whether you're an experienced trader or a newcomer to Web3, Tempest simplifies the process of farming, managing risk, and maximizing returns.
