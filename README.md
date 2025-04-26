@@ -33,8 +33,7 @@ Tempest comes with multiple modules, each designed for different tasks:
 - Detailed guides on **installation**, **setup**, and **usage** to help users make the most of Tempest.  
 - Learn how to configure Pulse and Autofarming to suit your individual needs and risk profiles.
 
-👉 [Read the Docs](#)  
-_([User Docs](https://tempest-3.gitbook.io/tempest-cli))_
+👉 [Read the Docs](https://tempest-3.gitbook.io/tempest-cli)  
 
 ---
 
