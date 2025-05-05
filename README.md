@@ -51,6 +51,13 @@ Tempest is built using modern, efficient, and scalable technologies. Here’s th
   - **Discord API**: For alerts and notifications.
 --- 
 
+## 🤝 Contributing
+
+Have suggestions or improvements? We’re open to issues and pull requests.  
+Help us make Tempest even better!
+
+---
+
 ## ⚠️ Heads up!
 Tempest currently applies a small 4% fee on the collected rewards.
 
