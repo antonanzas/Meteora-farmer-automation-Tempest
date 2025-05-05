@@ -1,8 +1,8 @@
 {
   "name": "metfarmer",
   "version": "1.0.0",
-  "main": "./dist-obf/src/index.js",
-  "bin": "./dist-obf/src/index.js",
+  "main": "./dist/src/index.js",
+  "bin": "./dist/src/index.js",
   "scripts": {
     "pkg": " pkg .",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -47,11 +47,11 @@
   },
   "pkg": {
     "assets": [
-      "dist-obf/**/*",
+      "dist/**/*",
       "node_modules/**/*",
       "node_modules/axios/**/*"
     ],
-    "scripts": "dist-obf/**/*",
+    "scripts": "dist/**/*",
     "targets": [
       "node18-win-x64"
     ],
